@@ -1,11 +1,12 @@
+import StepsHeader from "./StepsHeader";
 import "./styles.css";
 
 const Orders = () => {
-    return (
-        <div>
-            <h1>Orders</h1>
-        </div>
-    );
-}
+  return (
+    <div className="orders-container">
+      <StepsHeader />
+    </div>
+  );
+};
 
 export default Orders;
