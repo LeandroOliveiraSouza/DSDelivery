@@ -2,14 +2,19 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/LeandroOliveiraSouza/DSDelivery/blob/main/LICENSE) 
 
 # Sobre o projeto
-DSDelivery é uma aplicação full stack web. Construída durante a semana Spring React, organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+DSDelivery é uma aplicação full stack web (leiaute responsivo com breakpoints do bootstrap) e mobile. Organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-Sistema de registro e entrega de pedidos, onde o cliente registra o pedido e o entregador tem uma lista dos pedidos pendentes e entregues. Um pedido pode conter vários produtos e cada pedido possui uma localização, que é representada em um mapa na aplicação. 
+Corresponde a uma SPA (single page applications) web, com processo de seleção de produtos e um pedido pode conter vários produtos e cada pedido possui uma localização, que é representada em um mapa na aplicação. Os clientes pode escolher seus produtos e fazer os pedidos. A apllicação mobile apresenta ao time de entregas, a lista de pedidos disponíveis e o entregador seleciona qual pedido será entregue. Quando o entregador inicia a entrega, usando uma api do google maps, é aberto esse aplicativo no celular do entregador com a rota que ele deve seguir.
 
 ## Layout web
 ![Web Home](https://github.com/LeandroOliveiraSouza/assets/blob/main/dsdelivery-home.png)
 
 ![Web Selecionar produtos](https://github.com/LeandroOliveiraSouza/assets/blob/main/dsdelivery-produtos.png)
+
+## Layout mobile:
+![Mobile Home](https://github.com/LeandroOliveiraSouza/assets/blob/main/dsdelivery-iPhone-8-plus-home.png) ![Mobile Confirmação](https://github.com/LeandroOliveiraSouza/assets/blob/main/dsdelivery-iPhone-8-plus-confimacao.png)
+
+![Mobile Pedidos](https://github.com/LeandroOliveiraSouza/assets/blob/main/dsdelivery-iPhone-8-plus-pedidos.png)
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/LeandroOliveiraSouza/assets/blob/main/dsdelivery-modelo-conceitual.png)
